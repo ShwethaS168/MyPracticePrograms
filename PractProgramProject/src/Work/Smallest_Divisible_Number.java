@@ -4,6 +4,7 @@ public class Smallest_Divisible_Number {
 
 	public static long getSmallestDivNum(long n){ 
         long ans =1;
+        
         for(long i= 1; i<=n; i++){
         ans = (ans*i) / (gcd(ans,i) ) ;
         }
