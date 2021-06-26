@@ -10,7 +10,7 @@ public class Merge_Without_Extra_Space {
             if(arr2[0] <arr1[i]){
                 long tmp = arr2[0] ;
                 arr2[0] =  arr1[i] ;
-                arr1[i] =  tmp;
+                arr1[i] =   tmp;
             }
         long  first_element = arr2[0] ;
            for( k= 1; k<m && arr2[k] < first_element; k++){
