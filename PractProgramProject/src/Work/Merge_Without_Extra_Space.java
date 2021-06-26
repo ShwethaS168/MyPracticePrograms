@@ -9,7 +9,7 @@ public class Merge_Without_Extra_Space {
         for(int i= 0; i<n; i++){
             if(arr2[0] <arr1[i]){
                 long tmp = arr2[0] ;
-                arr2[0] = arr1[i] ;
+                arr2[0] =  arr1[i] ;
                 arr1[i] =  tmp;
             }
         long  first_element = arr2[0] ;
